@@ -4204,6 +4204,7 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+
 }
 
 .card-title {
@@ -7934,6 +7935,7 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+
 }
 
 .pt-0 {
@@ -11707,7 +11709,7 @@ html {
     left: -2vw;
   }
 }
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
   .profile {
     height: 35vw;
     width: 35vw;
@@ -11731,4 +11733,49 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+  
 }
+/*!  aar responsive desing proyectos */
+.home {
+  display: flex
+  flex-wrap: wrap;
+
+  }
+
+  .in-flex {
+    flex: 1;
+    min-width: 250px;
+    
+  }
+
+  .in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    margin:  20px;
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  .in-fleximg {
+    padding: 25px;
+    margin:  20px;
+    width: 50%;
+  
+  }  
+
+
+  body proyectos{
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    /*!  font-weight: var(--bs-body-font-weight); aar responsive desing proyectos */
+    width: 50%;
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+
+
