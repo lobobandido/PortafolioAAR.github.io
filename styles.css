@@ -11762,7 +11762,8 @@ html {
   .in-fleximg {
     padding: 25px;
     margin:  20px;
-    width: 50%;
+   
+    min-width: 250px
   
   }  
 
