@@ -11798,5 +11798,48 @@ html {
     padding-bottom : 56.25%;
   }
   
+/*!  aar desde edsoft, asadorcito haber si funciona */
 
 
+  @media screen and (min-width: 1024px) {
+
+    .projects-section .content-wrapper {
+      grid-template-columns : repeat(3, 1fr);
+    }
+  
+  }
+  
+  .card-project {
+    border-radius : var(--border-radius);
+    overflow      : collapse;
+    box-shadow    : var(--box-shadow);
+  }
+  
+  .card-project a {
+    display         : inline-flex;
+    align-items     : center;
+    text-decoration : none;
+    font-weight     : 600;
+  }
+  
+  .card-project h3 {
+    margin-bottom : 0.5rem;
+  }
+  
+  .card-project p {
+    margin-bottom : 1rem;
+  }
+  
+  .card-project a span:first-of-type {
+    margin-right : 0.25rem;
+  }
+  
+  .card-project .jam {
+    font-size : var(--big-font-size);
+  }
+  
+  .card-project > div:nth-of-type(2) {
+    padding    : 1rem;
+    background : var(--white-color);
+  }
+  
